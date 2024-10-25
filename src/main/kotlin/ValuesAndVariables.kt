@@ -1,4 +1,4 @@
-fun task1() {
+fun calculateAge() {
     /* Napravite varijable za godinu vašeg rođenja i trenutnu godinu.
     Izračunajte koliko godina imate. Izračunajte koliko ćete godina imati 2048. */
     var yearOfBirth = 2002
@@ -9,7 +9,7 @@ fun task1() {
     println("You will be $ageIn2048 old in 2048")
 }
 
-fun task2() {
+fun printNeighbours() {
     /* Napravite tri vrijednosti, za Vaše i imena dvaju osoba pokraj Vas na akademiji. Ispišite
     poruke u kojoj napominjete tko sjedi lijevo, a tko desno od koga. */
     var myName = "Patrik"
@@ -21,6 +21,6 @@ fun task2() {
 }
 
 fun main(args: Array<String>) {
-    task1()
-    task2()
+    calculateAge()
+    printNeighbours()
 }
